@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    margin: 0;
+    overflow: hidden;
+}
+
+#title {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#pongCanvas {
+    border: 1px solid #fff;
+}
